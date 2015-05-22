@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="SuperHeroesSite" />
+  <setParameter name="SuperHeroesDataContext-Web.config Connection String" value="data source=(LocalDb)\v11.0;initial catalog=SuperHeroesWebSite.Models.SuperHeroesDataContext;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" />
+</parameters>
