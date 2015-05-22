@@ -3,25 +3,25 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "siteName": {
-            "value": null
+            "value": "avdsuperheroes"
         },
         "hostingPlanName": {
-            "value": null
+            "value": "avdsuperheroesplan"
         },
         "siteLocation": {
-            "value": null
+            "value": "East US"
         },
-        "serverName": {
-            "value": null
+        "sqlServerName": {
+            "value": "superheroessqlserver"
         },
-        "serverLocation": {
-            "value": null
+        "sqlServerLocation": {
+            "value": "East US"
         },
-        "administratorLogin": {
-            "value": null
+        "sqlServerAdminLogin": {
+            "value": "anton"
         },
-        "databaseName": {
-            "value": null
+        "sqlDbName": {
+            "value": "HeroesDB"
         }
     }
 }

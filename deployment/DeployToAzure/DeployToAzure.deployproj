@@ -26,7 +26,6 @@
   <!-- vertag<:>end -->
   <ItemGroup>
     <Folder Include="Scripts\" />
-    <Folder Include="Templates\" />
     <Folder Include="Tools\" />
   </ItemGroup>
   <ItemGroup>
@@ -34,7 +33,8 @@
       <Visible>False</Visible>
     </None>
     <Content Include="Scripts\Deploy-AzureResourceGroup.ps1" />
-    <Content Include="Templates\WebSiteSQLDatabase.json" />
+    <Content Include="Templates\WebSiteSQLDatabase_old.json" />
+    <None Include="Templates\WebSiteSQLDatabase.json" />
     <None Include="Templates\WebSiteSQLDatabase.param.dev.json" />
   </ItemGroup>
   <ItemGroup>

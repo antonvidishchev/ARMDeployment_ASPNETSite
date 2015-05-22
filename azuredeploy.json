@@ -52,7 +52,7 @@
         },
         "sqlDbName": {
             "type": "string",
-            "defaultValue": "DemosDB"
+            "defaultValue": "HeroesDB"
         },
         "sqlDbCollation": {
             "type": "string",
@@ -72,7 +72,7 @@
         }
     },
     "variables": {
-        "SiteName": "[concat(parameters('siteName'), 'Api')]"
+        "SiteName": "[concat(parameters('siteName'), '')]"
     },
     "resources": [
         {
