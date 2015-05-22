@@ -32,6 +32,7 @@
         },
         "repoUrl": {
             "type": "string",
+            "defaultValue": "https://github.com/antonvidishchev/ARMDeployment_ASPNETSite.git"
         },
         "branch": {
             "type": "string",
